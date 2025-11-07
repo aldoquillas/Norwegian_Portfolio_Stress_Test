@@ -1,0 +1,16 @@
+Model,Number of out?of?sample months,"Number 
+of breaches",hit_rate,Kupiec_p,Indep_p,CC_p,
+Historical Simulation,218,7,0.032110092,0.000149479,0.20381471,0.00033654,
+Student t,218,3,0.013761468,0.13177438,0.023187639,0.024405803,
+"Exponentially Weighted 
+Moving Average ",218,5,0.02293578,0.006226654,0.088684953,0.005567568,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,

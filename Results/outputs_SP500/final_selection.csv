@@ -1,0 +1,2 @@
+file,alpha,window,lambda,selected_model,final_monthly_VaR
+SP_500.csv,0.995,60,0.97,StudentT,-0.1518423706608524

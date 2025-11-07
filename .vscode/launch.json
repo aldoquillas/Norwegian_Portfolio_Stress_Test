@@ -1,0 +1,61 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run VAR 99.5% (prompt CSV)",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/Modelling/Equity_model.py",
+      "python": "${workspaceFolder}/.venv/Scripts/python.exe",
+      "console": "integratedTerminal",
+      "args": [
+        "--file",
+        "${input:csvfile}",
+        "--alpha",
+        "0.995",
+        "--window",
+        "60"
+      ]
+    },
+    {
+      "name": "MSCI EMU VAR 99.5",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/Modelling/Equity_model.py",
+      "python": "${workspaceFolder}/.venv/Scripts/python.exe",
+      "console": "integratedTerminal",
+      "args": [
+        "--file",
+        "MSCI_EMU.csv",
+        "--alpha",
+        "0.995",
+        "--window",
+        "60"
+      ]
+    },
+    {
+      "name": "SP500 VAR 99.5",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/Modelling/Equity_model.py",
+      "python": "${workspaceFolder}/.venv/Scripts/python.exe",
+      "console": "integratedTerminal",
+      "args": [
+        "--file",
+        "SP_500.csv",
+        "--alpha",
+        "0.995",
+        "--window",
+        "60"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "csvfile",
+      "type": "promptString",
+      "description": "CSV filename in Input_data (e.g., MSCI_EMU.csv)",
+      "default": "MSCI_EMU.csv"
+    }
+  ]
+}

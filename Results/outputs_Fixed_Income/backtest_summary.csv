@@ -1,0 +1,5 @@
+Model,Number of out?of?sample months,Number of breaches,hit_rate,Kupiec_p,Indep_p,CC_p,PIT_KS_p
+"Exponentially Weighted 
+Moving Average",218,3,0.0138,0.1318,0.0232,0.0244,
+PCA_Normal,218,4,0.0183,0.0316,0.0006,0.0003,0.9078
+PCA_StudentT,218,2,0.0092,0.4341,0.8470,0.7229,0.9727
