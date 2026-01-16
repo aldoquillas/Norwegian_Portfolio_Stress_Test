@@ -27,7 +27,7 @@ Results quantify joint extreme losses via VaR and Expected Shortfall (ES) at 99.
 - Useful for risk budgeting and stress-testing under Basel III / Solvency II frameworks.  
 
 ## Report
-Full PDF report: `Norweigan Model Portfolio Stress Test.pdf`
+Full PDF report: `Norwegian Model Portfolio Stress Test.pdf`
 
 **Author:** Aldo Quillas, CFA®, FRM  
 **Contact:** [LinkedIn](https://www.linkedin.com/in/aldo-quillas-cfa-frm-5535b854/) | [Email](mailto:aldoquillasp@gmail.com)
